@@ -26,6 +26,4 @@ function StyleToJS(style: string, options?: StyleToJSOptions): StyleObject {
   return output;
 }
 
-StyleToJS.default = StyleToJS;
-
-export = StyleToJS;
+export default StyleToJS;
