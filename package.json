@@ -1,5 +1,5 @@
 {
-  "name": "style-to-js",
+  "name": "style-to-js-altn",
   "version": "1.1.19",
   "description": "Parses CSS inline style to JavaScript object (camelCased).",
   "author": "Mark <mark@remarkablemark.org>",
