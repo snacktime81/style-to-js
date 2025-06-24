@@ -54,4 +54,10 @@ export default [
       'simple-import-sort/imports': 'error',
     },
   },
+  {
+    files: ['**/*.d.ts'],
+    rules: {
+      'no-unused-vars': 'off',
+    },
+  }
 ];

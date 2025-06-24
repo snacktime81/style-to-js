@@ -4,6 +4,12 @@
   "description": "Parses CSS inline style to JavaScript object (camelCased).",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "cjs/index.js",
+  "exports": {
+    ".": {
+      "import": "./cjs/index.js",
+      "require": "./cjs/index.js"
+    }
+  },
   "scripts": {
     "build": "npm run build:cjs && npm run build:umd",
     "build:cjs": "tsc --declaration --outDir cjs",
